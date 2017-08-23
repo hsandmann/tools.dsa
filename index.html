@@ -1,0 +1,41 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.19.1/vis.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.12.3/math.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.19.1/vis.min.js"></script>
+
+	<script src="./dsa.js"></script>
+	<style>
+
+		.right {
+			text-align: right;
+		}
+
+		#parameters, #initials, #repeating {
+			display: inline-block;
+			vertical-align: top;
+			margin-left: 20px;
+		}
+
+		TEXTAREA {
+			width: 90%;
+		}
+
+	</style>
+</head>
+<body>
+	# elements <input id="txtNumber" value="20"/>
+	<div>
+		<button id="btnRandom">Random</button>
+		<button id="btnBubble">Bubblesort</button>
+		<button id="btnQuick">Quicksort</button>
+		<button id="btnMerge">Mergesort</button>
+	</div>
+	<br><textarea id="txtInitial"></textarea>
+	<br><textarea id="txtLines" rows="20"></textarea>
+	<br><textarea id="txtFinal"></textarea>
+	<br>Big Oh: <input id="txtBigO" value=""/>
+</body>
+</html>
